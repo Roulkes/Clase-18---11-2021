@@ -1,0 +1,108 @@
+edad = int(input("Dame tu edad: "))
+print(f"Tecleaste {edad} años")
+if edad >= 18: 
+    print("Eres mayor de edad, ten tu cheve")
+else: 
+    print("Eres menor de edad, ten tu Boing")
+print("Fin del programa")
+
+edad = int (input("Dame tu edad:"))
+dinero = int (input("¿Cuánto dinero tienes?"))
+if edad >= 18:
+    if dinero >=35:
+        print("Eres mayor de edad y tienes dinero, ten tu cheve")
+    else:
+        print("No tienes suficiente dinero")
+else:
+    print("Eres menor de edad, ten tu Boing")
+print("Fin del programa")
+
+edad = int(input("Dame tu edad: "))
+dinero = float(input("Cuanto dinero tienes: "))
+print(f"Tecleaste {edad} años")
+print(f"Tecleaste {dinero} dinero")
+if edad >= 18 :
+    if dinero >=36 :
+        print("Ten tu cheve")
+    else:
+        print("tienes la edad pero no tienes dinero suficiente")
+elif dinero >= 36 :
+    print("Tienes dinero suficiente pero no tienes la edad")
+else:
+    print("No tienes la edad ni el dinero, ve a jugar roblox a tu casa")
+    
+    CAL= float(input("Escribe tu calificiación: "))
+if CAL >= 8 :
+    print("Aprobado")
+else: 
+    print("Reprobado")
+    
+    #Ejemplo 2.4
+SUE=float(input("Dame tu sueldo: "))
+if SUE<1000:
+    NSUE=SUE*1.15
+else:
+    NSUE=SUE*1.12
+print(f"Tu nuevo sueldo es: {NSUE}")
+
+numero = int(input("Dame un valor del 1 al 7"))
+if numero == 1:
+    print("Hoy es lunes")
+elif numero == 2:
+    print("Hoy es Martes")
+elif numero == 3:
+    print("Hoy es Miercoles")
+elif numero == 4:
+    print("Hoy es Jueves")
+elif numero == 5:
+    print("Hoy es viernes")
+elif numero == 6:
+    print("Hoy es Sabado")
+elif numero == 7:
+    print("Hoy es Domingo")
+
+else:
+    print("el valor no está en el parametro")
+    
+dia = int( input("Ingresa un numero entre 1 y 7:"))
+print(f"Capturaste el numero { dia }")
+ 
+if dia >=1 and dia <= 7:
+    if dia == 1:
+        print("Lunes")
+    else:
+        if dia == 2:
+            print("Martes")
+        else:
+            if dia == 3:
+                print("Miércoles")
+            else:
+                if dia == 4:
+                    print("Jueves")
+                else:
+                    if dia == 5:
+                        print("Viernes")
+                    else:
+                        if dia == 6:
+                            print("Sábado")
+                        else:
+                            print("Domingo")
+ 
+else:
+    print("Ese numero no esta dentro del rango solicitado")
+    
+# ejemplo 2.7
+ 
+NUM = int(input("dame un numero entre 1 y 3:"))
+V = float(input("Dame un valor float:"))
+VAL = 0
+if NUM == 1:
+    VAL = 100 * V
+elif NUM == 2:
+    VAL = 100 ** V
+elif NUM == 3 :
+    VAL =100/V
+else:
+    VAL = 0
+ 
+print(VAL)
